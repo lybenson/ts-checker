@@ -1,11 +1,11 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['tsconfig.json'],
+    project: true,
     tsconfigRootDir: __dirname,
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint/eslint-plugin'],
+  plugins: ['@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended'
@@ -15,6 +15,10 @@ module.exports = {
     node: true,
     jest: true
   },
-  ignorePatterns: ['.eslintrc.js'],
-  rules: {}
+  ignorePatterns: ['.eslintrc.cjs', 'node_modules'],
+  rules: {
+    '@typescript-eslint/no-unused-vars': 0,
+    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/ban-types': 0
+  }
 }
