@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "typescript": "npx ts-node"
+  }
+}
