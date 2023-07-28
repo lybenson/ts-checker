@@ -70,7 +70,7 @@ type GetReadonlyKeys<T> = {
 
 不相同，返回 `{ 'title': 'title' }`
 
-`K` 为 `'description'`时, 返回 `{ 'description': 'description' }`
+`K` 为 `'description'`时, 同理，返回 `{ 'description': 'description' }`
 
 `K` 为 `'completed'`时,
 
@@ -79,7 +79,7 @@ type GetReadonlyKeys<T> = {
 => { -readonly [P in 'completed']: Todo['completed'] }
 => { completed: boolean }
 
-{ [P in K]: T[K] } 返回 { completed: completed }
+{ [P in K]: T[K] }
 => { [P in 'completed']: Todo['completed'] }
 => { completed: boolean }
 ```
