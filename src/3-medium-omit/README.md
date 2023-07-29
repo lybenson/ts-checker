@@ -20,6 +20,8 @@ const todo: TodoPreview = {
 }
 ```
 
+## Solution
+
 `Omit` 用于从一个类型中剔除某些属性，并返回一个新的类型
 
 ```ts

@@ -11,6 +11,8 @@ const fn = (v: boolean) => {
 type a = MyReturnType<typeof fn> // 应推导出 "1 | 2"
 ```
 
+## Solution
+
 我们需要定义类型 `MyReturnType` 用于获取函数的返回值类型
 
 ```ts
