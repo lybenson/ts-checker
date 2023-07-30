@@ -33,3 +33,11 @@ type MyReadonly2<T, K extends keyof T = keyof T> = {
   [P in keyof T as P extends K ? never : P]: T[P]
 }
 ```
+
+- `readonly [P in K]: T[P]` : 遍历 `K`, 将给定的属性变为 `readonly`
+
+- `[P in keyof T as P extends K ? never : P]: T[P]` : 分别两部分 (P in keyof T) as (P extends K ? never : P)
+
+  - `P in keyof T` : 遍历 `T` 中的属性名
+
+  - `P extends K ? never : P` : `P` 是 `K` 的子集，说明需要设置为 `readonly`, 由于前面已经设置过了，只需返回 `never`, 不是 `K` 的子集，则返回 `P`
