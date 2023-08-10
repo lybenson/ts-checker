@@ -16,7 +16,7 @@ type Result = MyExclude<'a' | 'b' | 'c', 'a'> // 'b' | 'c'
 type MyExclude<T, U> = T extends U ? never : T
 ```
 
-在 `extends` 语句中，如果 `T` 是联合类型，则对联合类型的各个子类型进行一次循环
+在 `extends` 语句中，如果 `T` 是联合类型，则对联合类型的各个子类型进行一次循环, 这叫做联合类型的 `distributive` 行为
 
 如
 
