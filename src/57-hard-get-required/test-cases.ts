@@ -6,3 +6,4 @@ type cases = [
     Equal<GetRequired<{ foo: undefined; bar?: undefined }>, { foo: undefined }>
   >
 ]
+type M = { foo: number; bar?: string }['bar']

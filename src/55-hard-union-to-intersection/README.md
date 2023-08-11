@@ -76,7 +76,7 @@ type UnionToIntersection<U> = (
 type M = UnionToIntersection<string | number>
 ```
 
-首先
+首先 `U` 是 `string | number`, 经过
 
 ```ts
 U extends U ? (arg: U) => unknown : never
@@ -94,7 +94,7 @@ U extends U ? (arg: U) => unknown : never
 ((arg: string) => unknown | (arg: number) => unknown) extends (arg: infer R) => unknown ? R : never
 ```
 
-根据逆变规则: 在逆变位置上，同一个类型的多个候选会被推断成交叉类型, 即 R 会被推断为
+根据逆变规则: 在逆变位置上，同一个类型的多个候选会被推断成交叉类型, 即 `R` 会被推断为
 
 ```ts
 string & number
