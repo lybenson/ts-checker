@@ -28,4 +28,4 @@ type Replace<
 S extends`${infer V}${From}${infer R}`
 ```
 
-通过 `infer` 关键字对原字符串进行类型分离, 找出 `From` 后 替换为 `To`
+通过 `infer` 关键字对原字符串进行类型分离, 找出 `From` 后替换为 `To`
