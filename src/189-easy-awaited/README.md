@@ -22,7 +22,7 @@ type MyAwaited<T extends PromiseLike<any>> = T extends PromiseLike<infer R>
 
 `PromiseLike<T>` 用于表示类似于 `Promise` 的对象。这个接口定义了一个对象, 确保了这个对象有一个 `then` 方法，这使得它可以像 `Promise` 一样被使用。
 
-本题中, 首先要求传入的泛型必须是 `PromiseLike` 的。之后判断泛型 `extends PromiseLike<infer R>`, 使用 `infer R` 获取具体的返回值类型 `R`
+本题中, 首先要求传入的泛型必须是 `PromiseLike` 的。之后判断泛型 `extends PromiseLike<infer R>`, 使用 `infer R` 获取具体的返回值类型 `R` , 这里使用 `extends` 的目的是为了获取 `R`
 
 返回值类型 `R` 使用 `extends` 判断, 存在两种情况, 并
 
