@@ -20,10 +20,3 @@ type cases = [
   Expect<Equal<Diff<Foo, Coo>, { age: string; gender: number }>>,
   Expect<Equal<Diff<Coo, Foo>, { age: string; gender: number }>>
 ]
-
-type a1 = Foo | Bar
-
-const a2: a1 = {
-  name: '22',
-  age: '222'
-}
