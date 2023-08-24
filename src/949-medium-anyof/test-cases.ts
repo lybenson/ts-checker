@@ -16,5 +16,3 @@ type cases = [
   Expect<Equal<AnyOf<[0, '', false, [], {}, undefined, null]>, false>>,
   Expect<Equal<AnyOf<[]>, false>>
 ]
-
-type M = AnyOf<[0, '', false, [], undefined, null]>
