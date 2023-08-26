@@ -1,1 +1,0 @@
-type Mutable<T> = any
