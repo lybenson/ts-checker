@@ -11,16 +11,9 @@ type trimed = Trim<'  Hello World  '> // expected to be 'Hello World'
 ## Solution
 
 ```ts
-type Space = ' ' | '\n' | '\t'
-type TrimLeft<S extends string> = S extends `${Space}${infer R}`
-  ? TrimLeft<R>
+type Trim<S extends string> = S extends
+  | `${' ' | '\t' | '\n'}${infer T}`
+  | `${infer T}${' ' | '\t' | '\n'}`
+  ? Trim<T>
   : S
-type TrimRight<S extends string> = S extends `${infer R}${Space}`
-  ? TrimRight<R>
-  : S
-
-type Trim<S extends string> = TrimRight<TrimLeft<S>>
 ```
-
-在 106 题的基础上, 添加 `TrimRight`, 之后将传入的字符串类型先经过 `TrimLeft` 得到左边无空白符的字符串类型，再经过`TrimRight`
-得到右边无空白符的字符串类型

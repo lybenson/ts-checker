@@ -11,8 +11,7 @@ type trimed = TrimLeft<'  Hello World  '> // 应推导出 'Hello World  '
 ## Solution
 
 ```ts
-type Space = ' ' | '\n' | '\t'
-type TrimLeft<S extends string> = S extends `${Space}${infer R}`
+type TrimLeft<S extends string> = S extends `${' ' | '\n' | '\t'}${infer R}`
   ? TrimLeft<R>
   : S
 ```
@@ -22,13 +21,13 @@ type TrimLeft<S extends string> = S extends `${Space}${infer R}`
 对于字符串 `\t foo`, 期望得到 `foo`, 递归过程如下
 
 ```ts
-'\t foo' extends `${Space}${infer R}` ? TrimLeft<R>: S
+'\t foo' extends `${' ' | '\n' | '\t'}${infer R}` ? TrimLeft<R>: S
 ```
 
 得到 `R` 为 `' foo'`, 继续递归
 
 ```ts
-' foo' extends `${Space}${infer R}` ? TrimLeft<R>: S
+' foo' extends `${' ' | '\n' | '\t'}${infer R}` ? TrimLeft<R>: S
 ```
 
 得到 `R` 为 `'foo'`, 继续递归, 得到最终 `'foo'`

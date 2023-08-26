@@ -1,5 +1,5 @@
-type TrimRight<S extends string> = S extends `${infer R}${Space}`
-  ? TrimRight<R>
+type Trim<S extends string> = S extends
+  | `${' ' | '\t' | '\n'}${infer T}`
+  | `${infer T}${' ' | '\t' | '\n'}`
+  ? Trim<T>
   : S
-
-type Trim<S extends string> = TrimRight<TrimLeft<S>>
