@@ -1,1 +1,0 @@
-type Shift<T> = any
