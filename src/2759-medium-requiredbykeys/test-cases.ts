@@ -25,3 +25,5 @@ type cases = [
   // @ts-expect-error
   Expect<Equal<RequiredByKeys<User, 'name' | 'unknown'>, UserRequiredName>>
 ]
+
+type M = RequiredByKeys<User, 'name'>
