@@ -1,6 +1,6 @@
 # 15 - 最后一个元素
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/15-medium-last/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/15-medium-last/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/15-medium-last/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/15-medium-last/test-cases.ts)
 
 > 在此挑战中建议使用TypeScript 4.0
 

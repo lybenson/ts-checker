@@ -1,6 +1,6 @@
 # 9142 - CheckRepeatedChars
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/9142-medium-checkrepeatedchars/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/9142-medium-checkrepeatedchars/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/9142-medium-checkrepeatedchars/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/9142-medium-checkrepeatedchars/test-cases.ts)
 
 判断一个string类型中是否有相同的字符
 

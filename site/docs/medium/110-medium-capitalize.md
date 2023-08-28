@@ -1,6 +1,6 @@
 # 110 - Capitalize
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/110-medium-capitalize/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/110-medium-capitalize/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/110-medium-capitalize/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/110-medium-capitalize/test-cases.ts)
 
 实现 `Capitalize<T>` 它将字符串的第一个字母转换为大写，其余字母保持原样。
 

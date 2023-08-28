@@ -1,6 +1,6 @@
 # 112 - Capitalize Words
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/112-hard-capitalizewords/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/112-hard-capitalizewords/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/112-hard-capitalizewords/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/112-hard-capitalizewords/test-cases.ts)
 
 实现`CapitalizeWords<T>`，它将**字符串的每个单词**的第一个字母转换为大写，其余部分保持原样。
 

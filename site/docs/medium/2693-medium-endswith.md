@@ -1,6 +1,6 @@
 # 2693 - EndsWith
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/2693-medium-endswith/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/2693-medium-endswith/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/2693-medium-endswith/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2693-medium-endswith/test-cases.ts)
 
 实现`EndsWith<T, U>`,接收两个string类型参数,然后判断`T`是否以`U`结尾,根据结果返回`true`或`false`
 

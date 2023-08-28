@@ -1,6 +1,6 @@
 # 3192 - Reverse
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/3192-medium-reverse/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/3192-medium-reverse/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/3192-medium-reverse/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/3192-medium-reverse/test-cases.ts)
 
 实现类型版本的数组反转 `Array.reverse`
 

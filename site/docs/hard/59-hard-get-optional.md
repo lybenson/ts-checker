@@ -1,6 +1,6 @@
 # 59 - 获得可选属性
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/59-hard-get-optional/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/59-hard-get-optional/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/59-hard-get-optional/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/59-hard-get-optional/test-cases.ts)
 
 实现高级工具类型 `GetOptional<T>`，该类型保留所有可选属性
 

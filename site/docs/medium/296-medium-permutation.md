@@ -1,6 +1,6 @@
 # 296 - Permutation
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/296-medium-permutation/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/296-medium-permutation/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/296-medium-permutation/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/296-medium-permutation/test-cases.ts)
 
 实现联合类型的全排列，将联合类型转换成所有可能的全排列数组的联合类型。
 

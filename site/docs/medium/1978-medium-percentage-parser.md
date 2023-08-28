@@ -1,6 +1,6 @@
 # 1978 - Percentage Parser
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/1978-medium-percentage-parser/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/1978-medium-percentage-parser/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/1978-medium-percentage-parser/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1978-medium-percentage-parser/test-cases.ts)
 
 实现类型 `PercentageParser<T extends string>`。根据规则 `/^(\+|\-)?(\d*)?(\%)?$/` 匹配类型 T。
 

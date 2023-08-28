@@ -1,6 +1,6 @@
 # 18 - 获取元组长度
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/18-easy-tuple-length/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/18-easy-tuple-length/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/18-easy-tuple-length/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/18-easy-tuple-length/test-cases.ts)
 
 创建一个`Length`泛型，这个泛型接受一个只读的元组，返回这个元组的长度。
 

@@ -1,6 +1,6 @@
 # 55 - 联合类型转化为交叉类型
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/55-hard-union-to-intersection/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/55-hard-union-to-intersection/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/55-hard-union-to-intersection/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/55-hard-union-to-intersection/test-cases.ts)
 
 实现高级工具类型 `UnionToIntersection<U>`
 

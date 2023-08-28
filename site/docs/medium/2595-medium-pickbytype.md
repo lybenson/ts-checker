@@ -1,6 +1,6 @@
 # 2595 - PickByType
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/2595-medium-pickbytype/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/2595-medium-pickbytype/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/2595-medium-pickbytype/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2595-medium-pickbytype/test-cases.ts)
 
 从 `T` 中，选择属性，满足其类型是 `U`
 

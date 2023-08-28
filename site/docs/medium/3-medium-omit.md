@@ -1,6 +1,6 @@
 # 3 - 实现 Omit
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/3-medium-omit/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/3-medium-omit/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/3-medium-omit/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/3-medium-omit/test-cases.ts)
 
 不使用 `Omit` 实现 TypeScript 的 `Omit<T, K>` 泛型。
 

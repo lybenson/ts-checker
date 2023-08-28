@@ -1,6 +1,6 @@
 # 5 - 获取只读属性
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/5-extreme-readonly-keys/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/5-extreme-readonly-keys/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/5-extreme-readonly-keys/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/5-extreme-readonly-keys/test-cases.ts)
 
 实现泛型`GetReadonlyKeys<T>`，`GetReadonlyKeys<T>`返回由对象 T 所有只读属性的键组成的联合类型。
 

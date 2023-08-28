@@ -1,6 +1,6 @@
 # 9896 - 获取数组的中间元素
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/9896-medium-get-middle-element/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/9896-medium-get-middle-element/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/9896-medium-get-middle-element/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/9896-medium-get-middle-element/test-cases.ts)
 
 通过实现一个 `GetMiddleElement` 方法，获取数组的中间元素，用数组表示
 

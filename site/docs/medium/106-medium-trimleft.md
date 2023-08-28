@@ -1,6 +1,6 @@
 # 106 - 去除左侧空白
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/106-medium-trimleft/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/106-medium-trimleft/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/106-medium-trimleft/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/106-medium-trimleft/test-cases.ts)
 
 实现 `TrimLeft<T>` ，它接收确定的字符串类型并返回一个新的字符串，其中新返回的字符串删除了原字符串开头的空白字符串。
 

@@ -1,6 +1,6 @@
 # 2759 - RequiredByKeys
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/2759-medium-requiredbykeys/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/2759-medium-requiredbykeys/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/2759-medium-requiredbykeys/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2759-medium-requiredbykeys/test-cases.ts)
 
 实现一个通用的 `RequiredByKeys<T, K>` ，它接收两个类型参数 `T` 和 `K` 。
 

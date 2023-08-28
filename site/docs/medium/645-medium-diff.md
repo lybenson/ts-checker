@@ -1,6 +1,6 @@
 # 645 - Diff
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/645-medium-diff/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/645-medium-diff/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/645-medium-diff/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/645-medium-diff/test-cases.ts)
 
 获取两个接口类型中的差值属性。
 

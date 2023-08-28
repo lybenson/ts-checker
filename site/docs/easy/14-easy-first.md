@@ -1,6 +1,6 @@
 # 14 - 第一个元素
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/14-easy-first/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/14-easy-first/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/14-easy-first/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/14-easy-first/test-cases.ts)
 
 实现一个`First<T>`泛型，它接受一个数组`T`并返回它的第一个元素的类型。
 

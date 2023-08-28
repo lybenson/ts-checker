@@ -1,6 +1,6 @@
 # 62 - 查找类型
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/62-medium-type-lookup/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/62-medium-type-lookup/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/62-medium-type-lookup/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/62-medium-type-lookup/test-cases.ts)
 
 有时，您可能希望根据某个属性在联合类型中查找类型。
 

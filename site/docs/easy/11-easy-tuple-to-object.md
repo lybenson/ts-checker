@@ -1,6 +1,6 @@
 # 11 - 元组转换为对象
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/11-easy-tuple-to-object/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/11-easy-tuple-to-object/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/11-easy-tuple-to-object/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/11-easy-tuple-to-object/test-cases.ts)
 
 将一个元组类型转换为对象类型，这个对象类型的键/值和元组中的元素对应。
 

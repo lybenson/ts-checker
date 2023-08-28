@@ -8,9 +8,8 @@ const main = async () => {
     const dir = dirs[i]
     const difficulty = dir.split('-')[1]
 
-    if (!['easy', 'extreme', 'hard', 'medium'].includes(difficulty)) {
+    if (!['warm', 'easy', 'extreme', 'hard', 'medium'].includes(difficulty)) {
       console.log(`${dir} error`)
-
       continue
     }
     const num = dir.split('-')[0]
@@ -29,7 +28,7 @@ const main = async () => {
       lines.splice(
         2,
         0,
-        `[Source](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/${dir}/test-cases.ts))`,
+        `[Source](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/test-cases.ts)`,
         ''
       )
       content = lines.join('\n')

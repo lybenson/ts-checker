@@ -1,6 +1,6 @@
 # 459 - Flatten
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/459-medium-flatten/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/459-medium-flatten/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/459-medium-flatten/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/459-medium-flatten/test-cases.ts)
 
 在这个挑战中，你需要写一个接受数组的类型，并且返回扁平化的数组类型。
 

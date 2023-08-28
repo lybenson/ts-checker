@@ -1,6 +1,6 @@
 # 17 - 柯里化 1
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/17-hard-currying-1/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/17-hard-currying-1/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/17-hard-currying-1/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/17-hard-currying-1/test-cases.ts)
 
 > 在此挑战中建议使用TypeScript 4.0
 

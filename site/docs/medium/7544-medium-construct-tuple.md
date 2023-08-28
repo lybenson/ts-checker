@@ -1,6 +1,6 @@
 # 7544 - Construct Tuple
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/7544-medium-construct-tuple/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/7544-medium-construct-tuple/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/7544-medium-construct-tuple/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/7544-medium-construct-tuple/test-cases.ts)
 
 构造一个给定长度的元组。
 

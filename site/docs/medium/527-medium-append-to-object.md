@@ -1,6 +1,6 @@
 # 527 - Append to object
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/527-medium-append-to-object/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/527-medium-append-to-object/test-cases.ts))
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/527-medium-append-to-object/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/527-medium-append-to-object/test-cases.ts)
 
 实现一个为接口添加一个新字段的类型。该类型接收三个参数，返回带有新字段的接口类型。
 
