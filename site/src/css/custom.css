@@ -28,3 +28,17 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+code {
+  font-family: menlo;
+  font-weight: 600;
+  border-width: 0px;
+  border-radius: 4px;
+  color: #ff502c;
+  padding: 0.065em 0.4em;
+  font-size: 0.87em;
+}
+
+.theme-code-block code {
+  font-family: menlo;
+}
