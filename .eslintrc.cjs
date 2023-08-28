@@ -2,7 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: true,
-    tsconfigRootDir: __dirname,
+    tsconfigRootDir: [__dirname, './scripts'],
     sourceType: 'module'
   },
   plugins: ['@typescript-eslint'],
@@ -20,6 +20,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 0,
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/ban-types': 0,
-    '@typescript-eslint/ban-ts-comment': 0
+    '@typescript-eslint/ban-ts-comment': 0,
+    '@typescript-eslint/no-var-requires': 0
   }
 }
