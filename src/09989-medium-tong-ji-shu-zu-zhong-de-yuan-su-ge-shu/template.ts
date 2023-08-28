@@ -1,1 +1,0 @@
-type CountElementNumberToObject<T> = any
