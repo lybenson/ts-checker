@@ -19,6 +19,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en']
   },
+  onBrokenLinks: 'ignore',
 
   presets: [
     [

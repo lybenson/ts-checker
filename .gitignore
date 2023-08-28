@@ -4,6 +4,7 @@ node_modules
 .env
 .Ds_Store
 .docusaurus
+build
 
 # Logs
 logs
