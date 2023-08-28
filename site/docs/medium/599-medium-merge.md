@@ -1,6 +1,6 @@
 # 599 - Merge
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/599-medium-merge/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/599-medium-merge/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/599-medium-merge/test-cases.ts))
 
 将两个类型合并成一个类型，第二个类型的键会覆盖第一个类型的键。
 

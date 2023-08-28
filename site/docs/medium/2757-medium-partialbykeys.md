@@ -1,6 +1,6 @@
 # 2757 - PartialByKeys
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/2757-medium-partialbykeys/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/2757-medium-partialbykeys/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/2757-medium-partialbykeys/test-cases.ts))
 
 实现一个通用的`PartialByKeys<T, K>`，它接收两个类型参数`T`和`K`。
 

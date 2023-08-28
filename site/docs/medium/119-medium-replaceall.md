@@ -1,6 +1,6 @@
 # 119 - ReplaceAll
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/119-medium-replaceall/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/119-medium-replaceall/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/119-medium-replaceall/test-cases.ts))
 
 实现 `ReplaceAll<S, From, To>` 将一个字符串 `S` 中的所有子字符串 `From` 替换为 `To`。
 

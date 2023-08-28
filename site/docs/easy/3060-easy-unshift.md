@@ -1,6 +1,6 @@
 # 3060 - Unshift
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/3060-easy-unshift/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/3060-easy-unshift/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/3060-easy-unshift/test-cases.ts))
 
 实现类型版本的 `Array.unshift`。
 

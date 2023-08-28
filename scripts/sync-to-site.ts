@@ -29,7 +29,7 @@ const main = async () => {
       lines.splice(
         2,
         0,
-        `[Source](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/template.ts)`,
+        `[Source](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/${dir}/test-cases.ts))`,
         ''
       )
       content = lines.join('\n')

@@ -1,6 +1,6 @@
 # 2 - 获取函数返回类型
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/2-medium-return-type/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/2-medium-return-type/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/2-medium-return-type/test-cases.ts))
 
 不使用 `ReturnType` 实现 TypeScript 的 `ReturnType<T>` 泛型。
 

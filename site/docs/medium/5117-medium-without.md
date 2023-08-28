@@ -1,6 +1,6 @@
 # 5117 - 去除数组指定元素
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/5117-medium-without/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/5117-medium-without/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/5117-medium-without/test-cases.ts))
 
 实现一个像 Lodash.without 函数一样的泛型 Without<T, U>，它接收数组类型的 T 和数字或数组类型的 U 为参数，会返回一个去除 U 中元素的数组 T。
 

@@ -1,6 +1,6 @@
 # 20 - Promise.all
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/20-medium-promise-all/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/20-medium-promise-all/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/20-medium-promise-all/test-cases.ts))
 
 给函数`PromiseAll`指定类型，它接受元素为 Promise 或者类似 Promise 的对象的数组，返回值应为`Promise<T>`，其中`T`是这些 Promise 的结果组成的数组。
 

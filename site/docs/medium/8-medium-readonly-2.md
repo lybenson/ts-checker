@@ -1,6 +1,6 @@
 # 8 - 对象部分属性只读
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/8-medium-readonly-2/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/8-medium-readonly-2/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/8-medium-readonly-2/test-cases.ts))
 
 实现一个泛型`MyReadonly2<T, K>`，它带有两种类型的参数`T`和`K`。
 

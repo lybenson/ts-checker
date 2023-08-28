@@ -1,6 +1,6 @@
 # 116 - Replace
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/116-medium-replace/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/116-medium-replace/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/116-medium-replace/test-cases.ts))
 
 实现 `Replace<S, From, To>` 将字符串 `S` 中的第一个子字符串 `From` 替换为 `To` 。
 

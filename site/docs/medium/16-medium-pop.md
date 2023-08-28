@@ -1,6 +1,6 @@
 # 16 - 排除最后一项
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/16-medium-pop/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/16-medium-pop/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/16-medium-pop/test-cases.ts))
 
 > 在此挑战中建议使用TypeScript 4.0
 

@@ -1,6 +1,6 @@
 # 12 - 可串联构造器
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/12-medium-chainable-options/template.ts)
+[Source](https://github.com/lybenson/ts-checker/blob/master/src/12-medium-chainable-options/template.ts) [TestCases]((https://github.com/lybenson/ts-checker/blob/master/src/12-medium-chainable-options/test-cases.ts))
 
 在 JavaScript 中我们经常会使用可串联（Chainable/Pipeline）的函数构造一个对象，但在 TypeScript 中，你能合理的给它赋上类型吗？
 
