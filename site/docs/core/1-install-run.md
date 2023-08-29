@@ -70,4 +70,4 @@ ts-node main.ts  // 打印: Hello, TypeScript!
 
 ## 脚手架
 
-这里提供一个脚手架工具 [ts-pure](https://github.com/lybenson/ts-pure)，可以帮助我们快速创建纯 `ts` 项目
+这里提供一个脚手架工具 [ts-pure](https://github.com/lybenson/ts-pure)，可以避免安装上面提到的库，同时可以帮助我们快速创建纯 `ts` 项目
