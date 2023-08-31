@@ -1,1 +1,0 @@
-type RemoveIndexSignature<T> = any
