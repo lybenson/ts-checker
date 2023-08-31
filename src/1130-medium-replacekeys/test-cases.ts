@@ -61,3 +61,5 @@ type cases = [
   >,
   Expect<Equal<ReplaceKeys<Nodes, 'name', { aa: number }>, NodesNoName>>
 ]
+
+type M = ReplaceKeys<Nodes, 'name', { aa: number }>
