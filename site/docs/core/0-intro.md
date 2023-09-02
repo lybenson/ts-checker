@@ -13,4 +13,7 @@ slug: /
 
 本指南不仅介绍 `TypeScript` 基础知识，还提供了 [Type-Challenges](https://github.com/type-challenges/type-challenges) 题目详解，帮助你更加熟练的使用 `TypeScript`
 
-最后，如果你觉得本指南对你有帮助，就请帮忙点个 star 吧
+最后，如果你有任何疑问，可以通过下面的方式联系我
+
+[twitter](https://twitter.com/gwanbit)
+&nbsp; &nbsp;[telegram](https://t.me/gmbite)
