@@ -184,6 +184,27 @@ type Employee = {
 }
 ```
 
+### 只读类型
+
+只读类型并不是一种具体的类型，而是一种类型泛式。
+
+使用 `readonly` 表示属性是只读的，不可修改
+
+```ts
+// 定义 name 属性是只读的
+type Employee = {
+  readonly name: string
+  salary?: number
+}
+
+const emp: Employee = {
+  name: 'lybenson',
+  salary: 3500
+}
+
+emp.name = 'jack ma' // Cannot assign to 'name' because it is a read-only property.
+```
+
 ## 自定义类型
 
 定义类型常用 `type` 和 `interface`, 两者的区别是

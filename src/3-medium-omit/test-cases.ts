@@ -22,5 +22,3 @@ interface Expected1 {
 interface Expected2 {
   title: string
 }
-type MtExclude<T, U> = T extends U ? never : T
-type M = MtExclude<1 | 2 | 3, 1>
