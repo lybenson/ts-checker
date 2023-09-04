@@ -278,7 +278,7 @@ type Student = Omit<User, 'salary' | 'workTime'>
 |                 `Pick<T, K extends keyof T>`                 | 从 `T` 中选择一组属性,选择的属性在 `K` 中                                               |
 |               `Record<K extends keyof any, T>`               | 构造一个属性名类型为 `K`, 属性类型为 `T` 的对象类型。如`type obj = Record<string, any>` |
 |                       `Exclude<T, U>`                        | 从联合类型 `T` 中剔除包含在 `U` 中的类型                                                |
-|                       `Extract<T, U>`                        | 从联合类型 `T` 中剔除包含在 `U` 中的类型                                                |
+|                       `Extract<T, U>`                        | 从联合类型 `T` 中提取包含在 `U` 中的类型                                                |
 |                `Omit<T, K extends keyof any>`                | 从 `T` 中剔除在 `K` 中的属性                                                            |
 |                       `NonNullable<T>`                       | 从类型 `T` 中排除 `null` 和 `undefined`                                                 |
 |        `Parameters<T extends (...args: any) => any>`         | 从函数类型 `T` 中提取参数类型，并返回一个由参数类型组成的元组类型                       |

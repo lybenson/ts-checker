@@ -58,3 +58,5 @@ type ReadonlyUser = {
   readonly age: number
 }
 ```
+
+大多数内置类型都是基于映射类型实现的，例如 `Partial<T>`、`Required<T>`、`Pick<T, K extends keyof T>`等
