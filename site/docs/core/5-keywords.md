@@ -2,7 +2,7 @@
 
 ## keyof
 
-`keyof` 用于获取对象类型的属性名，并返回属性名构成的联合类型，如
+`keyof T` 用于获取类型 `T` 的所有属性名，并返回属性名构成的联合类型，如
 
 ```ts
 type User = {
@@ -11,6 +11,13 @@ type User = {
   age: number
 }
 type UserKey = keyof User // 'id' | 'name' | 'age'
+```
+
+如果 `T` 是数组，则返回包含数组索引的字符串字面量联合类型
+
+```ts
+const arr = [1, 2, 3] as const
+type Keys = keyof typeof arr // "0" | "1" | "2"
 ```
 
 ## typeof
