@@ -9,15 +9,15 @@
 
 `ts` 基础知识包括以下内容:
 
-- [安装和运行](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/1-install-run.md)
-- [tsconfig](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/2-tsconfig.md)
-- [数据类型](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/3-type.md)
-- [泛型](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/4-generics.md)
-- [关键字](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/5-keywords.md)
-- [索引签名](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/6-index-signature.md)
-- [映射类型](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/7-mapped-types.md)
-- [extends](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/8-extends.md)
-- [Promise](https://github.com/lybenson/ts-checker/blob/master/site/docs/core/9-promise.md)
+- [安装和运行](https://ts.lybenson.com/core/install-run)
+- [tsconfig](https://ts.lybenson.com/core/tsconfig)
+- [数据类型](https://ts.lybenson.com/core/type)
+- [泛型](https://ts.lybenson.com/core/generics)
+- [关键字](https://ts.lybenson.com/core/keywords)
+- [索引签名](https://ts.lybenson.com/core/index-signature)
+- [映射类型](https://ts.lybenson.com/core/mapped-types)
+- [extends](https://ts.lybenson.com/core/extends)
+- [Promise](https://ts.lybenson.com/core/promise)
 
 `type-challenges` 题解按照题目难易度分为:
 
