@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Type-Challenges',
+  title: 'Ts-Checker',
   favicon: 'img/favicon-32x32.png',
 
   url: 'https://ts.lybenson.com',
@@ -44,7 +44,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Type-Challenges',
+        title: 'Ts-Checker',
         // logo: {
         //   src: 'img/logo.svg'
         // },
