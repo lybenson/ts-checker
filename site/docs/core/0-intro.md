@@ -16,4 +16,4 @@ slug: /
 最后，如果你有任何疑问，可以通过下面的方式联系我
 
 [twitter](https://twitter.com/gwanbit)
-&nbsp; &nbsp;[telegram](https://t.me/gmbite)
+&nbsp; &nbsp;[telegram](https://t.me/gwanbit)
