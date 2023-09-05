@@ -237,13 +237,35 @@ type Status = 'draft' | 'published'
 ### `interface`
 
 ```ts
-interface User = {
+interface User {
   name: string
   age: number
   sex?: number
   getName: () => string
 }
 ```
+
+:::tip 注意
+
+`interface` 定义的同名类型会自动合并, 如:
+
+```ts
+interface User {
+  name: string
+}
+
+interface User {
+  age: number
+}
+
+// 自动合并后的类型是
+interface User {
+  name: string
+  age: number
+}
+```
+
+:::
 
 ## 类型转换
 

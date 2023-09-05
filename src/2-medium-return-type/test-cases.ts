@@ -18,7 +18,3 @@ type ComplexObject = {
 
 const fn = (v: boolean) => (v ? 1 : 2)
 const fn1 = (v: boolean, w: any) => (v ? 1 : 2)
-const user = {
-  name: 'lybenson',
-  age: 18
-} as const

@@ -25,7 +25,7 @@ const cat: Cat = {
 
 ## 条件类型
 
-在类型定义中， 使用 `extends` 进行条件类型判断
+在类型定义中， 由于无法使用等号, 因此可以使用 `extends` 进行条件判断
 
 ```ts
 type IsNumber<T> = T extends number ? true : false
