@@ -72,14 +72,14 @@ const sum = (a: number, b: number): number => {
 
 ### 数组类型
 
-数组的类型声明有多种方式
+数组的类型声明主要有下面两种:
 
 ```ts
 const arr1: number[] = []
 const arr2: Array<number> = []
 ```
 
-### 元祖类型
+### 元组类型
 
 数组一般由同种类型的值组成，但元组可以存储不同类型的值
 
@@ -106,7 +106,7 @@ const direction: Direction = Direction.SOUTH
 
 ### 联合类型
 
-联合类型表示变量的值必须为多种类型中的一种, 强调**或**，用 `|` 符号连接
+联合类型表示变量的值为多种类型中的一种, 强调**或**，用 `|` 符号连接
 
 ```ts
 type Roles = 'CEO' | 'CTO' | 'CFO'
@@ -116,7 +116,7 @@ const userRole: Roles = 'CTO'
 
 ### 交叉类型
 
-交叉类型类型表示变量需要有类型的所有属性, 强调**与**，用 `&` 符号连接
+交叉类型表示变量有类型的所有属性, 强调**与**，用 `&` 符号连接
 
 ```ts
 type Student = {
@@ -126,6 +126,7 @@ type Employee = {
   name: string
   salary: number
 }
+// UserRole 同时具有 Student 和 Employee 属性
 type UserRole = Student & Employee
 
 const user: UserRole = {
@@ -176,17 +177,24 @@ function printName(firstName: string, lastName?: string) {
     console.log(firstName)
   }
 }
+// lastName 为可选类型，可不传
 printName('lybenson')
 
+// 自定义类型中定义可选属性
 type Employee = {
   name: string
   salary?: number
 }
+const emp: Employee = {
+  name: 'lybenson'
+}
 ```
+
+`-?` 将属性变为非可选。
 
 ### 只读类型
 
-只读类型并不是一种具体的类型，而是一种类型泛式。
+只读类型同样并不是一种具体的类型。
 
 使用 `readonly` 表示属性是只读的，不可修改
 
@@ -205,12 +213,14 @@ const emp: Employee = {
 emp.name = 'jack ma' // Cannot assign to 'name' because it is a read-only property.
 ```
 
+`-readonly` 将属性变为非只读。
+
 ## 自定义类型
 
-定义类型常用 `type` 和 `interface`, 两者的区别是
+自定义类型常用 `type` 和 `interface`, 两者的区别是
 
-- `type` 定义联合类型、交叉类型、元组类型、函数类型等。它通常用于创建复杂的类型组合
-- `interface` 常用于定义对象的结构和形状。它主要用于描述对象的属性、方法以及类似的结构
+- `type` 定义联合类型、交叉类型、元组类型、函数类型等。通常用于创建复杂的类型组合
+- `interface` 常用于定义**对象类型**的结构。可使用继承等特性
 
 ### `type`
 
@@ -231,6 +241,7 @@ interface User = {
   name: string
   age: number
   sex?: number
+  getName: () => string
 }
 ```
 
@@ -241,6 +252,41 @@ interface User = {
 ```ts
 // 强制转换为 any
 const distance: number = '100000' as any
+```
+
+`as const` 将值视为不可变的常量，而不是可变的变量
+
+```ts
+const name = 'lybenson' as const
+```
+
+`name` 类型是 `'lybenson'`, 而不是 `string`
+
+如果是对象类型:
+
+```ts
+const user = {
+  name: 'lybenson',
+  age: 18
+} as const
+```
+
+不使用 `as const`时, `user` 的类型会被推导为
+
+```ts
+const user: {
+  name: string
+  age: number
+}
+```
+
+使用 `as const` 后, `user` 的类型会被推导为
+
+```ts
+const user: {
+  readonly name: 'lybenson'
+  readonly age: 18
+}
 ```
 
 ### `<T>`
