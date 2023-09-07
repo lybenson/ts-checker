@@ -136,23 +136,29 @@ type Awaited<T> = T extends null | undefined
 `Awaited` 用于获取 `Promise` 的返回值类型，根据传入的泛型 `T`，分为以下几种情况
 
 - `T` 是 `null` 或 `undefined` 则原样返回
-- `T` 是一个包含 `then` 方法的对象类型
-  - 是，判断 `then` 方法中的参数 `onfulfilled` 类型是否是函数
+- `T` 是否是一个包含 `then` 方法的对象类型
+  - 是，判断 `then` 方法中的参数 `onfulfilled` 参数类型是否是函数
     - 是，递归调用 `Awaited`, 传入 `onfulfilled` 第一个参数类型
     - 不是，返回 `never`
   - 不是，直接返回 `T`
 
 ```ts
+// 泛型是Promise
 type PromiseAwaited = Awaited<Promise<string>> // string
 
+// 泛型是多层Promise
 type RecursivePromiseAwaited = Awaited<Promise<Promise<string>>> // string
 
+// 泛型是基础数据类型
 type BooleanAwaited = Awaited<boolean> // boolean
 
+// 泛型是联合类型
 type UnionAwaited = Awaited<Date | Promise<Promise<string>>> // string | Date
 
+// 泛型是一个包含 then 方法的对象类型
 type SimulatePromiseAwaited = Awaited<{ then: () => string }> // never
 
+// 泛型是一个包含 then 方法的对象类型, 且 then 方法携带参数
 type PromiseLikeAwaited = Awaited<{
   then: (onfulfilled: (value: number) => any) => string
 }> // number
