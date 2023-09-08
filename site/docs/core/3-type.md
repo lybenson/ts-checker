@@ -190,7 +190,13 @@ const emp: Employee = {
 }
 ```
 
-`-?` 将属性变为非可选。
+类型定义中, `-?` 将属性变为非可选
+
+```ts
+type Required<T> = {
+  [P in keyof T]-?: T[P]
+}
+```
 
 ### 只读类型
 
@@ -213,7 +219,13 @@ const emp: Employee = {
 emp.name = 'jack ma' // Cannot assign to 'name' because it is a read-only property.
 ```
 
-`-readonly` 将属性变为非只读。
+类型定义中, `-readonly` 将属性变为非只读
+
+```ts
+type NotReadonly<T> = {
+  -readonly [P in keyof T]: T[P]
+}
+```
 
 ## 自定义类型
 
@@ -357,3 +369,5 @@ type Student = Omit<User, 'salary' | 'workTime'>
 |                `Capitalize<S extends string>`                | 将字符串类型 `S` 的第一个字符转换为大写字母                                             |
 |               `Uncapitalize<S extends string>`               | 将字符串类型 `S` 的第一个字符转换为小写字母                                             |
 |                        `ThisType<T>`                         | 指定方法中 `this` 关键字的类型                                                          |
+
+> 具体实现见题解，此处暂且不表
