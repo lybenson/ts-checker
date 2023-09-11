@@ -40,7 +40,7 @@ const fruits: Fruits = ['apple', 'banana', 'cherry']
 
 同索引类型的区别是：索引类型的属性名只能是 `string`、`number`、`symbol`, 而 `Record` 却没有限制
 
-例如: 指定 `key` 只能是 `name` 和 `age`
+例如: 指定 `key` 只能是 `firstName` 和 `lastName`
 
 ```ts
 type User = Record<'firstName' | 'lastName', string>

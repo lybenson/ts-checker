@@ -26,4 +26,6 @@ declare type PropertyKey = string | number | symbol
 
 定义对象的 `key` 只能是这三种类型之一
 
-之后通过 ` [P in T[number]]: P` 遍历数组构造对象类型
+`T[number]` 返回数组元素构成的联合类型, 如数组 `['name', 'age', 'sex']` , 则 `T[number]` 为 `'name' | 'age' | 'sex'`
+
+之后通过映射类型 ` [P in T[number]]: P` 遍历数组构造对象类型
