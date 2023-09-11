@@ -26,4 +26,6 @@
 - [hard](https://ts.lybenson.com/category/%E9%A2%98%E8%A7%A3---hard)
 - [extreme](https://ts.lybenson.com/category/%E9%A2%98%E8%A7%A3---extreme)
 
-> 建议从 easy 入手，逐步深入
+> 建议从 `easy` 入手，逐步深入。
+>
+> 刷完 `medium` 相当于达到星耀水平，`hard` 相当于王者，`extreme` 相当于职业
