@@ -60,7 +60,14 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme
       }
-    })
+    }),
+  scripts: [
+    {
+      defer: true,
+      src: 'https://static.cloudflareinsights.com/beacon.min.js',
+      'data-cf-beacon': '{"token": "7ee0f7db83a64a598a72ea0d33880407"}'
+    }
+  ]
 }
 
 module.exports = config
