@@ -1,6 +1,6 @@
 # 43 - 实现 Exclude
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/43-easy-exclude/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/43-easy-exclude/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/43-easy-exclude/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/43-easy-exclude/test-cases.ts)
 
 实现内置的 `Exclude<T, U>` 类型，但不能直接使用它本身。
 

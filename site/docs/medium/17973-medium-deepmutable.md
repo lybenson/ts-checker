@@ -1,6 +1,6 @@
 # 17973 - DeepMutable
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/17973-medium-deepmutable/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/17973-medium-deepmutable/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/17973-medium-deepmutable/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/17973-medium-deepmutable/test-cases.ts)
 
 实现一个通用的 `DeepMutable<T>` ，它使对象的每个属性，及其递归的子属性 - 可变。
 

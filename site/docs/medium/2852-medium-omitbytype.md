@@ -1,6 +1,6 @@
 # 2852 - OmitByType
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/2852-medium-omitbytype/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2852-medium-omitbytype/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/2852-medium-omitbytype/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2852-medium-omitbytype/test-cases.ts)
 
 从 `T` 中选择属性，且属性的类型不是 `U`
 

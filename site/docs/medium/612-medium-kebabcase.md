@@ -1,6 +1,6 @@
 # 612 - KebabCase
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/612-medium-kebabcase/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/612-medium-kebabcase/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/612-medium-kebabcase/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/612-medium-kebabcase/test-cases.ts)
 
 使用 `kebab-case` 替换 `camelCase` 或 `PascalCase` 字符串
 

@@ -1,6 +1,6 @@
 # 13 - Hello World
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/13-warm-hello-world/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/13-warm-hello-world/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/13-warm-hello-world/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/13-warm-hello-world/test-cases.ts)
 
 Hello, World!
 

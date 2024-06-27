@@ -1,6 +1,6 @@
 # 4179 - Flip
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/4179-medium-flip/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/4179-medium-flip/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/4179-medium-flip/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/4179-medium-flip/test-cases.ts)
 
 实现类型 `just-flip-object`
 

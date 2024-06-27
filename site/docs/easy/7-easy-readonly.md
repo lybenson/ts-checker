@@ -1,6 +1,6 @@
 # 7 - 对象属性只读
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/7-easy-readonly/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/7-easy-readonly/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/7-easy-readonly/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/7-easy-readonly/test-cases.ts)
 
 不要使用内置的`Readonly<T>`，自己实现一个。
 

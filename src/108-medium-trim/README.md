@@ -17,3 +17,5 @@ type Trim<S extends string> = S extends
   ? Trim<T>
   : S
 ```
+
+原理同 106

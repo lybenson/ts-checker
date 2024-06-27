@@ -1,6 +1,6 @@
 # 2688 - StartsWith
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/2688-medium-startswith/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2688-medium-startswith/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/2688-medium-startswith/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2688-medium-startswith/test-cases.ts)
 
 实现`StartsWith<T, U>`,接收两个string类型参数,然后判断`T`是否以`U`开头,根据结果返回`true`或`false`
 

@@ -1,6 +1,6 @@
 # 1042 - IsNever
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/1042-medium-isnever/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1042-medium-isnever/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/1042-medium-isnever/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1042-medium-isnever/test-cases.ts)
 
 实现类型 `IsNever`, 如果输入的泛型 `T` 类型是 `never` 返回 `true`, 否则返回 `false`
 

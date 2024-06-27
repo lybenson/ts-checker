@@ -1,6 +1,6 @@
 # 2070 - Drop Char
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/2070-medium-drop-char/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2070-medium-drop-char/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/2070-medium-drop-char/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/2070-medium-drop-char/test-cases.ts)
 
 从字符串中剔除指定字符。
 

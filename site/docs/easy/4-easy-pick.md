@@ -1,6 +1,6 @@
 # 4 - 实现 Pick
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/4-easy-pick/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/4-easy-pick/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/4-easy-pick/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/4-easy-pick/test-cases.ts)
 
 不使用 `Pick<T, K>` ，实现 TS 内置的 `Pick<T, K>` 的功能。
 

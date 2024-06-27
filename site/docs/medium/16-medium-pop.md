@@ -1,6 +1,6 @@
 # 16 - 排除最后一项
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/16-medium-pop/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/16-medium-pop/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/16-medium-pop/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/16-medium-pop/test-cases.ts)
 
 > 在此挑战中建议使用TypeScript 4.0
 
@@ -15,8 +15,6 @@ type arr2 = [3, 2, 1]
 type re1 = Pop<arr1> // expected to be ['a', 'b', 'c']
 type re2 = Pop<arr2> // expected to be [3, 2]
 ```
-
-**额外**：同样，您也可以实现`Shift`，`Push`和`Unshift`吗？
 
 ## Solution
 

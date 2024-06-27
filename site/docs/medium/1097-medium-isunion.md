@@ -1,6 +1,6 @@
 # 1097 - IsUnion
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/1097-medium-isunion/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1097-medium-isunion/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/1097-medium-isunion/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1097-medium-isunion/test-cases.ts)
 
 实现类型 `IsUnion`，判断类型 `T` 是否是联合类型
 

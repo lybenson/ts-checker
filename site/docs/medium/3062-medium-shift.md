@@ -1,6 +1,6 @@
 # 3062 - Shift
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/3062-medium-shift/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/3062-medium-shift/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/3062-medium-shift/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/3062-medium-shift/test-cases.ts)
 
 实现类型版本的 `Array.shift`。
 

@@ -14,8 +14,6 @@ type re1 = Pop<arr1> // expected to be ['a', 'b', 'c']
 type re2 = Pop<arr2> // expected to be [3, 2]
 ```
 
-**额外**：同样，您也可以实现`Shift`，`Push`和`Unshift`吗？
-
 ## Solution
 
 ```ts

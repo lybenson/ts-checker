@@ -1,5 +1,4 @@
 import fs from 'fs/promises'
-import path from 'path'
 
 const main = async () => {
   const dirs = await fs.readdir('./src')
@@ -28,7 +27,7 @@ const main = async () => {
       lines.splice(
         2,
         0,
-        `[Source](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/test-cases.ts)`,
+        `[Answer](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/${dir}/test-cases.ts)`,
         ''
       )
       content = lines.join('\n')

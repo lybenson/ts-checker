@@ -1,6 +1,6 @@
 # 1367 - Remove Index Signature
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/1367-medium-remove-index-signature/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1367-medium-remove-index-signature/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/1367-medium-remove-index-signature/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1367-medium-remove-index-signature/test-cases.ts)
 
 实现`RemoveIndexSignature<T>`，从对象类型中排除索引签名
 

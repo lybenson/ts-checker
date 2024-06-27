@@ -1,6 +1,6 @@
 # 9 - 对象属性只读（递归）
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/9-medium-deep-readonly/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/9-medium-deep-readonly/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/9-medium-deep-readonly/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/9-medium-deep-readonly/test-cases.ts)
 
 实现一个泛型 `DeepReadonly<T>`，它将对象的每个参数及其子对象递归地设为只读。
 

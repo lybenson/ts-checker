@@ -1,6 +1,6 @@
 # 89 - 必需的键
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/89-hard-required-keys/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/89-hard-required-keys/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/89-hard-required-keys/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/89-hard-required-keys/test-cases.ts)
 
 实现高级工具类型 `RequiredKeys<T>`，该类型返回 T 中所有必需属性的键组成的一个联合类型。
 

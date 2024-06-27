@@ -46,7 +46,7 @@ type User = {
 type KeyOfUser = keyof User // 'name' | 'age'
 ```
 
-在具体的实现中使用了 **映射类型**(Mapped Types), 可以将一个类型映射成另一个类型，语法如下：
+在具体的实现中使用了 [**映射类型**(Mapped Types)](/core/mapped-types), 可以将一个类型映射成另一个类型，语法如下：
 
 ```ts
 type TypeName<T> = {

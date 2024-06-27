@@ -1,6 +1,6 @@
 # 16259 - To primitive
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/16259-medium-to-primitive/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/16259-medium-to-primitive/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/16259-medium-to-primitive/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/16259-medium-to-primitive/test-cases.ts)
 
 将类型为字面类型（标签类型）的属性，转换为基本类型。
 

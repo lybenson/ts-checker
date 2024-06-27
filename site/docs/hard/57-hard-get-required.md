@@ -1,6 +1,6 @@
 # 57 - 获得必需的属性
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/57-hard-get-required/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/57-hard-get-required/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/57-hard-get-required/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/57-hard-get-required/test-cases.ts)
 
 实现高级工具类型 `GetRequired<T>`，该类型保留所有必需的属性
 

@@ -1,6 +1,6 @@
 # 949 - AnyOf
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/949-medium-anyof/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/949-medium-anyof/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/949-medium-anyof/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/949-medium-anyof/test-cases.ts)
 
 在类型系统中实现类似于 Python 中 `any` 函数。类型接收一个数组，如果数组中任一个元素为真，则返回 `true`，否则返回 `false`。如果数组为空，返回 `false`。
 

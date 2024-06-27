@@ -1,6 +1,6 @@
 # 3 - 实现 Omit
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/3-medium-omit/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/3-medium-omit/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/3-medium-omit/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/3-medium-omit/test-cases.ts)
 
 不使用 `Omit` 实现 TypeScript 的 `Omit<T, K>` 泛型。
 
@@ -48,7 +48,7 @@ type User = {
 type KeyOfUser = keyof User // 'name' | 'age'
 ```
 
-在具体的实现中使用了 **映射类型**(Mapped Types), 可以将一个类型映射成另一个类型，语法如下：
+在具体的实现中使用了 [**映射类型**(Mapped Types)](/core/mapped-types), 可以将一个类型映射成另一个类型，语法如下：
 
 ```ts
 type TypeName<T> = {

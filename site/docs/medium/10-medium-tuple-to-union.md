@@ -1,6 +1,6 @@
 # 10 - 元组转合集
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/10-medium-tuple-to-union/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/10-medium-tuple-to-union/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/10-medium-tuple-to-union/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/10-medium-tuple-to-union/test-cases.ts)
 
 实现泛型`TupleToUnion<T>`，它返回元组所有值的合集。
 

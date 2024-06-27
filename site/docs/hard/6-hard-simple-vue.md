@@ -1,6 +1,6 @@
 # 6 - 简单的 Vue 类型
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/6-hard-simple-vue/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/6-hard-simple-vue/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/6-hard-simple-vue/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/6-hard-simple-vue/test-cases.ts)
 
 实现类似Vue的类型支持的简化版本。
 

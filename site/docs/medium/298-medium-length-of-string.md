@@ -1,6 +1,6 @@
 # 298 - Length of String
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/298-medium-length-of-string/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/298-medium-length-of-string/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/298-medium-length-of-string/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/298-medium-length-of-string/test-cases.ts)
 
 计算字符串的长度，类似于 `String#length` 。
 

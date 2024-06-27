@@ -1,6 +1,6 @@
 # 1130 - ReplaceKeys
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/1130-medium-replacekeys/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1130-medium-replacekeys/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/1130-medium-replacekeys/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/1130-medium-replacekeys/test-cases.ts)
 
 实现类型 `ReplaceKeys`，用于替换联合类型中的键值。如果某个类型没有这个键，则跳过替换操作
 

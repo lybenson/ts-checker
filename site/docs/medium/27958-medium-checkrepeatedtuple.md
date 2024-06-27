@@ -1,6 +1,6 @@
 # 27958 - CheckRepeatedTuple
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/27958-medium-checkrepeatedtuple/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/27958-medium-checkrepeatedtuple/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/27958-medium-checkrepeatedtuple/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/27958-medium-checkrepeatedtuple/test-cases.ts)
 
 判断一个元组类型中是否有相同的成员
 

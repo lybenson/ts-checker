@@ -1,6 +1,6 @@
 # 531 - String to Union
 
-[Source](https://github.com/lybenson/ts-checker/blob/master/src/531-medium-string-to-union/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/531-medium-string-to-union/test-cases.ts)
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/531-medium-string-to-union/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/531-medium-string-to-union/test-cases.ts)
 
 实现一个将接收到的String参数转换为一个字母Union的类型。
 
