@@ -6,7 +6,8 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "docs:sync": "bun run scripts/sync-to-site.ts"
   },
   "dependencies": {
     "@type-challenges/utils": "^0.1.1"
