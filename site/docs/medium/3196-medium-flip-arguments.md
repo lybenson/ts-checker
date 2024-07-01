@@ -1,4 +1,4 @@
-# 3196 - Reverse
+# 3196 - Flip Arguments
 
 [Answer](https://github.com/lybenson/ts-checker/blob/master/src/3196-medium-flip-arguments/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/3196-medium-flip-arguments/test-cases.ts)
 

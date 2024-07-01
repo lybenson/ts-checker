@@ -1,4 +1,4 @@
-# Reverse
+# Flip Arguments
 
 实现 `loadash` 中 `_.flip` 类型版本
 
