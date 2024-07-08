@@ -16,7 +16,7 @@ type UserKey = keyof User // 'id' | 'name' | 'age'
 如果 `T` 是数组，则返回包含数组索引的字符串字面量联合类型
 
 ```ts
-const arr = [1, 2, 3] as const
+const arr = [1, 2, 3] as const // arr 类型是: [1, 2, 3]
 type Keys = keyof typeof arr // "0" | "1" | "2"
 ```
 
@@ -82,3 +82,65 @@ function getName(instance: User | Todo): string {
   return ''
 }
 ```
+
+## satisfies
+
+`satisfies` 表示表达式满足类型的某一种情况
+
+```ts
+type Employee = {
+  id: number
+  name: string
+  salary:
+    | number
+    | {
+        id: string
+        amount: number
+      }
+}
+```
+
+`Employee.salary` 字段表示员工的薪资类型, 可以是一个具体数量的金额，也可以是等值的某种物品
+
+使用 `Employee` 类型
+
+```ts
+const employee: Employee = {
+  id: 1,
+  name: 'lybenson',
+  salary: {
+    id: 'mbp-latest',
+    amount: 1
+  }
+}
+```
+
+上面定义员工的工资是一台最新款的 `mbp`, 但使用 `employee.salary.id` 时会报错, 因为 `salary` 类型还有可能是 `number`
+
+使用 `satisfies` 处理这种情况。定义变量时不需要使用显示声明类型, 而是使用 `satisfies` 让变量去匹配类型
+
+```ts
+const employee = {
+  id: 1,
+  name: 'lybenson',
+  salary: {
+    id: 'mbp',
+    amount: 1
+  }
+} satisfies Employee
+```
+
+变量的 `employee` 类型被推导为了
+
+```ts
+const employee: {
+  id: number
+  name: string
+  salary: {
+    id: string
+    amount: number
+  }
+}
+```
+
+使用 `employee.salary.id` 将不再报错

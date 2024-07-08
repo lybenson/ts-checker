@@ -50,7 +50,11 @@ console.log(str)
 
 可通过命令 `tsc --init` 生成默认的 `tsconfig.json` 文件
 
-## ts-node
+## ~~ts-node~~
+
+<details>
+
+<summary>详情</summary>
 
 `ts-node` 是一个可以直接运行 `ts` 文件的命令。
 
@@ -67,6 +71,18 @@ ts-node main.ts  // 打印: Hello, TypeScript!
 ```
 
 尽管 `ts-node` 可直接运行 `ts` 文件，但对于浏览器环境仍需要编译的过程。
+
+</details>
+
+## bun(推荐)
+
+[bun](https://bun.sh/) 是 `JavaScript` 和 `TypeScript` 高性能运行时工具。
+
+安装完成后，你可以通过下面的命令运行一个 `ts` 文件
+
+```bash
+bun run main.ts
+```
 
 ## 脚手架
 
