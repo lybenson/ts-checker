@@ -24,7 +24,7 @@ type IsTuple<T> = [T] extends [never]
   : false
 ```
 
-首先判断泛型 `T` 是否是 `never` 类型, 如果是, 则返回 `false`
+首先判断泛型 `T` 是否是 `never` 类型, 如果是, 则返回 `false`。具体见 [1042](https://github.com/lybenson/ts-checker/blob/master/src/1042-medium-isnever/README.md)
 
 接着判断 `T` 是否是数组类型(包括只读数组), 如果不是, 则返回 `false`
 
