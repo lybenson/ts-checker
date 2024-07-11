@@ -1,8 +1,8 @@
 type Without<T extends unknown[], U extends unknown[] | number> = T extends [
-  infer First,
-  ...infer Rest
+  infer F,
+  ...infer R
 ]
-  ? First extends Exclude<T[number], U extends unknown[] ? U[number] : U>
-    ? [First, ...Without<Rest, U>]
-    : Without<Rest, U>
+  ? F extends Exclude<T[number], U extends unknown[] ? U[number] : U>
+    ? [F, ...Without<R, U>]
+    : Without<R, U>
   : T

@@ -1,3 +1,3 @@
-type TrimRight<S extends string> = S extends `${infer Rest}${' ' | '\n' | '\t'}`
-  ? TrimRight<Rest>
+type TrimRight<S extends string> = S extends `${infer R}${' ' | '\n' | '\t'}`
+  ? TrimRight<R>
   : S
