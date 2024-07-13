@@ -13,15 +13,13 @@ type Res2 = IndexOf<[0, 0, 0], 2> // expected to be -1
 ## Solution
 
 ```ts
-type Trunc<T extends string | number> = `${T}` extends `${infer L}.${infer _}`
-  ? L extends '' | '-'
-    ? `${L}0`
-    : L
-  : `${T}`
+type IndexOf<
+  T extends unknown[],
+  U,
+  Index extends 0[] = []
+> = Index['length'] extends T['length']
+  ? -1
+  : Equal<T[Index['length']], U> extends true
+  ? Index['length']
+  : IndexOf<T, U, [...Index, 0]>
 ```
-
-通过 `infer` 将字符串分为左右两部分
-
-如果左边部分是空字符或者是 `'-'` 则返回 `${L}0`, 否则直接返回 `L`
-
-如果不能将字符串分为左右两部分, 说明字符串没有 `.`, 即整个字符串都是整数部分，直接返回整个字符串即可。
