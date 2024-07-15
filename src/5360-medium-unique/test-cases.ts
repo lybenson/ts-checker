@@ -17,5 +17,3 @@ type cases = [
     >
   >
 ]
-
-type C = Unique<[1, 'a', 2, 'b', 2, 'a']>

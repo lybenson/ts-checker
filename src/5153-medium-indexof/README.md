@@ -13,13 +13,16 @@ type Res2 = IndexOf<[0, 0, 0], 2> // expected to be -1
 ## Solution
 
 ```ts
-type IndexOf<
-  T extends unknown[],
-  U,
-  Index extends 0[] = []
-> = Index['length'] extends T['length']
-  ? -1
-  : Equal<T[Index['length']], U> extends true
-  ? Index['length']
-  : IndexOf<T, U, [...Index, 0]>
+type IndexOf<T extends any[], U, I extends 0[] = []> = T extends [
+  infer F,
+  ...infer R
+]
+  ? Equal<F, U> extends true
+    ? I['length']
+    : IndexOf<R, U, [0, ...I]>
+  : -1
 ```
+
+如果 `T` 中存在元素, 则取出首元素 `F` 和 `U` 对比, 类型全等, 则表示找到。直接返回遍历次数即可
+
+若类型不相等, 则继续遍历剩余元素。
