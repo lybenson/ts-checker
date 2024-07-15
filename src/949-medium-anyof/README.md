@@ -16,25 +16,3 @@ type Falsy = '' | [] | false | { [key: string]: never } | 0 | undefined | null
 
 type AnyOf<T extends readonly any[]> = T[number] extends Falsy ? false : true
 ```
-
-`T[number]` 返回数组中元素构成的联合类型
-
-例如 `T = [1, '', false, [], {}]`, 则 `T[number] = 1 | '' | false | [] | {}`
-
-所以语句就变成了
-
-```ts
-1 | '' | false | [] | {} extends Falsy ? false : true
-```
-
-`extends` 前面是联合类型的话则会对每个类型执行一个循环, 等同于
-
-```ts
-1 extends Falsy ? false : true // true
-'' extends Falsy ? false : true // false
-false extends Falsy ? false : true // false
-[] extends Falsy ? false : true // false
-{} extends Falsy ? false : true // false
-```
-
-因为有一个元素的结果返回 `true`, 因此整个语句返回 `true`
