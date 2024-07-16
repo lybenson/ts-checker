@@ -33,6 +33,8 @@ type Combination<T extends string[], I = T[number]> = I extends string
 'baz' extends string ? 'baz' | `baz ${Combination<['foo' | 'bar']>}`
 ```
 
-尽管在第二层递归中, 并没有遵循 `T` 是单个元素组成的数组类型。但并不影响 `I` 的类型值。
+此时 `I` 将不再是联合类型, 而是联合类型中的单个元素。这也是为什么在 `Exclude` 用 `T[number]` 而不用 `I` 的原因。
+
+在第二层递归中, 并没有遵循 `T` 是单个元素组成的数组类型。但并不影响 `I` 的类型值。
 
 最后 `I` 为空时返回 `never`, 这是因为在联合类型中, `never` 会被自动消除。
