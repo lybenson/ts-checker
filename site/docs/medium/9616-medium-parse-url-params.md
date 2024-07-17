@@ -15,9 +15,9 @@ ParseUrlParams<'posts/:id/:user'> // id | user
 ## Solution
 
 ```ts
-type ParseUrlParams<T> = T extends `${string}:${infer R}`
-  ? R extends `${infer L}/${infer R}`
-    ? L | ParseUrlParams<R>
-    : R
+type ParseUrlParams<T> = T extends `${string}:${infer Rest}`
+  ? Rest extends `${infer Left}/${infer Right}`
+    ? Left | ParseUrlParams<Right>
+    : Rest
   : never
 ```
