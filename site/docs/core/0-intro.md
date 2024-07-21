@@ -23,5 +23,5 @@ slug: /
 
 最后，如果你有任何疑问，可以通过下面的方式联系我
 
-[twitter](https://twitter.com/gwanbit)
+[twitter](https://twitter.com/syen_white)
 &nbsp; &nbsp;[telegram](https://t.me/gwanbit)
