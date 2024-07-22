@@ -2,7 +2,7 @@
 
 [Answer](https://github.com/lybenson/ts-checker/blob/master/src/529-medium-absolute/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/529-medium-absolute/test-cases.ts)
 
-实现一个接收string,number或bigInt类型参数的`Absolute`类型,返回一个正数字符串。
+实现一个接收 `string`, `number` 或 `bigInt` 类型参数的`Absolute`类型,返回一个正数字符串。
 
 例如
 

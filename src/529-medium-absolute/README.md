@@ -1,6 +1,6 @@
 # Absolute
 
-实现一个接收string,number或bigInt类型参数的`Absolute`类型,返回一个正数字符串。
+实现一个接收 `string`, `number` 或 `bigInt` 类型参数的`Absolute`类型,返回一个正数字符串。
 
 例如
 
