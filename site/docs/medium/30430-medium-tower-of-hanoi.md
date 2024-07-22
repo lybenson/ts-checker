@@ -1,0 +1,11 @@
+# 30430 - Tower of hanoi
+
+[Answer](https://github.com/lybenson/ts-checker/blob/master/src/30430-medium-tower-of-hanoi/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/30430-medium-tower-of-hanoi/test-cases.ts)
+
+模拟解决汉诺塔问题。你的代码应该接受圆盘数量作为输入，并返回一个步骤数组，将圆盘从塔A移动到塔B，使用塔C进行辅助。数组中的每个条目应该是一对字符串 `[From, To]`，表示圆盘从 `From -> To`。
+
+## Solution
+
+```ts
+
+```
