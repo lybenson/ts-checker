@@ -24,7 +24,7 @@ type Permutation<T, K = T> = [T] extends [never]
 
 `T extends T` 会被拆分成
 
-```
+```ts
 'A' extends 'A' | 'B' ? Condition : never
 'B' extends 'A' | 'B' ? Condition : never
 ```

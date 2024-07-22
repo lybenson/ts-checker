@@ -22,9 +22,9 @@ type PermutationsOfTuple<T extends unknown[]> = T extends [
 
 在之前的排列组合的题目中
 
-- [296]()
-- [4260]()
-- [8787]()
+- [296](https://github.com/lybenson/ts-checker/tree/master/src/296-medium-permutation)
+- [4260](https://github.com/lybenson/ts-checker/tree/master/src/4260-medium-nomiwase)
+- [8787](https://github.com/lybenson/ts-checker/tree/master/src/8987-medium-subsequence)
 
 都是通过将原始类型 `T` 直接或间接转换为联合类型, 再通过 `Exclude` 排除某个元素来实现结果。
 

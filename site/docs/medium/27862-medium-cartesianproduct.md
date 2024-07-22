@@ -21,4 +21,13 @@ type CartesianProduct<T, U> = T extends T
   : never
 ```
 
-`extends` 左侧是联合类型时, 会对联合类型的各个元素分别应用条件类型
+`extends` 左侧是联合类型时, 会对联合类型的各个元素分别应用条件类型。
+
+例如 `T extends T`, 当 `T` 是 `1 | 2`, 会分别执行
+
+```ts
+1 extends 1 | 2 ? T : never
+2 extends 1 | 2 ? T : never
+```
+
+条件类型内部的 `T` 将变成联合类型中的单个元素, 而不是联合类型本身

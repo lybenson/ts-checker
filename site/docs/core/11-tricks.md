@@ -8,7 +8,7 @@ draft: true
 
 ## 条件类型中的分配律
 
-`T extends T ? T : never`
+`T extends T ? T : never` 遍历联合类型
 
 ## 强制类型展开
 
