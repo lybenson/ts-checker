@@ -8,6 +8,8 @@ draft: true
 
 ## 条件类型中的分配律
 
+`T extends T ? T : never`
+
 ## 强制类型展开
 
 `Omit<T, never>`
