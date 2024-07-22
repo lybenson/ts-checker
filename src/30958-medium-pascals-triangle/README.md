@@ -1,6 +1,6 @@
 # Pascal's triangle
 
-给定一个数 `N`，构造一个有N行的帕斯卡三角形。Wikipedia
+给定一个数 `N`，构造一个有 `N` 行的帕斯卡三角形。
 
 ## Solution
 

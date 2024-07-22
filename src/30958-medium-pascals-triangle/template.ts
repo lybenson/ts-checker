@@ -23,5 +23,3 @@ type Pascal<
   : C['length'] extends 0
   ? Pascal<N, [0], [1]>
   : Pascal<N, [...C, 0], PascalNext<P>, [...R, PascalNext<P>]>
-
-type C = AccSum<[1, 0]>

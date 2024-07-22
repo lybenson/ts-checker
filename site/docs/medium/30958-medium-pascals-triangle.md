@@ -2,7 +2,7 @@
 
 [Answer](https://github.com/lybenson/ts-checker/blob/master/src/30958-medium-pascals-triangle/template.ts) [TestCases](https://github.com/lybenson/ts-checker/blob/master/src/30958-medium-pascals-triangle/test-cases.ts)
 
-给定一个数 `N`，构造一个有N行的帕斯卡三角形。Wikipedia
+给定一个数 `N`，构造一个有 `N` 行的帕斯卡三角形。
 
 ## Solution
 
