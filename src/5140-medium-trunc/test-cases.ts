@@ -12,5 +12,3 @@ type cases = [
   Expect<Equal<Trunc<'-10.234'>, '-10'>>,
   Expect<Equal<Trunc<10>, '10'>>
 ]
-
-type C = Trunc<10>

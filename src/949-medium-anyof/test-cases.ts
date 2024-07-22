@@ -16,19 +16,3 @@ type cases = [
   Expect<Equal<AnyOf<[0, '', false, [], {}, undefined, null]>, false>>,
   Expect<Equal<AnyOf<[]>, false>>
 ]
-
-type C = 1 | '' | false | [] | {} extends
-  | ''
-  | []
-  | false
-  | { [key: string]: never }
-  | 0
-  | undefined
-  | null
-  ? true
-  : false
-
-// 1 extends 1 ? true : false // true
-// 2 extends 1 ? true : false // false
-
-type M = [1, '', false, [], {}]

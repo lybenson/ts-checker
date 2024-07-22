@@ -26,4 +26,3 @@ type cases = [
 type T = {
   age?: number | undefined
 }
-type C = ObjectEntries<Partial<Model>>

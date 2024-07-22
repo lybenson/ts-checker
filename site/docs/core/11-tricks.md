@@ -7,3 +7,7 @@ draft: true
 ## 判断 never 类型
 
 ## 条件类型中的分配律
+
+## 强制类型展开
+
+`Omit<T, never>`

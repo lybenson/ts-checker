@@ -149,5 +149,3 @@ type cases = [
   Expect<Equal<NumberRange<0, 2>, Result2>>,
   Expect<Equal<NumberRange<0, 140>, Result3>>
 ]
-
-type C = NumberRange<2, 9>

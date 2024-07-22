@@ -96,6 +96,3 @@ type cases = [
     >
   >
 ]
-
-type C = StringToUnion<''>
-type D = AllCombinations<'B'>
