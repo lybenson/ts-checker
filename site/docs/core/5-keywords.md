@@ -13,13 +13,6 @@ type User = {
 type UserKey = keyof User // 'id' | 'name' | 'age'
 ```
 
-如果 `T` 是数组，则返回包含数组索引的字符串字面量联合类型
-
-```ts
-const arr = [1, 2, 3] as const // arr 类型是: [1, 2, 3]
-type Keys = keyof typeof arr // "0" | "1" | "2"
-```
-
 ## typeof
 
 `typeof` 用于获取变量的类型
@@ -113,11 +106,13 @@ const employee: Employee = {
     amount: 1
   }
 }
+
+employee.salary.id // Property 'id' does not exist on type 'number | { id: string; amount: number; }'.
 ```
 
 上面定义员工的工资是一台最新款的 `mbp`, 但使用 `employee.salary.id` 时会报错, 因为 `salary` 类型还有可能是 `number`
 
-使用 `satisfies` 处理这种情况。定义变量时不需要使用显示声明类型, 而是使用 `satisfies` 让变量去匹配类型
+使用 `satisfies` 处理这种情况。定义变量时不需要使用显示声明类型, 而是使用 `satisfies` 让变量去匹配类型, 如果无法匹配类型则会报错
 
 ```ts
 const employee = {
@@ -130,7 +125,7 @@ const employee = {
 } satisfies Employee
 ```
 
-变量的 `employee` 类型被推导为了
+变量 `employee` 类型被推导为
 
 ```ts
 const employee: {
@@ -142,5 +137,3 @@ const employee: {
   }
 }
 ```
-
-使用 `employee.salary.id` 将不再报错

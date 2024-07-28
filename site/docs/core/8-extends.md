@@ -1,4 +1,4 @@
-# extends
+# Extends
 
 `extends` 本意为继承，但在 `ts` 却有着多种不同的用法。
 
@@ -22,6 +22,10 @@ const cat: Cat = {
   species: 'cat'
 }
 ```
+
+## 类继承
+
+见 [Class](./10-class.md#继承)
 
 ## 条件类型
 

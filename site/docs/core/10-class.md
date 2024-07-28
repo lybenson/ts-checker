@@ -1,5 +1,5 @@
 ---
-title: class
+title: Class
 ---
 
 ## 基本使用
