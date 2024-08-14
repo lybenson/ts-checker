@@ -76,6 +76,43 @@ function getName(instance: User | Todo): string {
 }
 ```
 
+## is
+
+TODO: 类型谓词(type predicate)
+
+```ts
+function isPerson(obj: any): obj is Person {
+  return 'name' in obj && 'age' in obj
+}
+```
+
+## asserts
+
+TODO: 断言
+
+```ts
+function assert(condition: any, msg?: string): asserts condition {
+  if (!condition) {
+    throw new Error(msg)
+  }
+}
+
+let x: unknown = 'hello'
+assert(typeof x === 'string')
+console.log(x.toUpperCase()) // 正确，x 被断言为 string 类型
+
+// or
+function assertIsString(val: unknown): asserts val is string {
+  if (typeof val !== 'string') {
+    throw new Error('Not a string!')
+  }
+}
+
+let y: unknown = 'world'
+assertIsString(y)
+console.log(y.toLowerCase()) // 正确，y 被断言为 string 类型
+```
+
 ## satisfies
 
 `satisfies` 表示表达式满足类型的某一种情况
